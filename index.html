@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eVAlidate - Email Validator for your Business</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="project">
+        <header>
+            <nav>
+                
+                <div class="logo">
+                    <img src="img/email.svg" alt="email svg" >
+                    
+                    eValidate</div>
+              <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/">ABOUT</a></li>
+                <li><a href="/">CONTACT US</a></li>
+              </ul>
+            </nav>
+        </header>
+
+    <main>
+     <div class="container">
+        <form action="">
+        <h1>Enter your email to validate</h1>
+        
+            
+                <!-- Text input for username -->
+                <input placeholder="Enter Your Email" type="text" id="username" name="username" required>
+                <br><br>
+            
+                <!-- Submit button -->
+                <input id = "submitBtn" class="btn" type="submit" value="Submit">
+              </form>
+        </form>
+     </div>
+
+     <div class="container">
+        <h2>Your Results</h2>
+     <div id = "resultCont" >
+    
+       
+
+     </div>
+     </div>
+    </main>
+    <br>
+    <br>
+     
+    <div id="paragraph">
+    <div id="para1">
+
+    <h2>What is Email Checker ?</h2>
+
+    <p>Email Checker is a simple little tool for verifying an email address.
+       It's free and quite easy to use. Just enter the email address and hit the check button.
+       It tells you whether the email id is real or fake. Sometimes,
+       it’s unable to correctly predict and say unknown because some email providers have put some
+       limits and restrictions or they simply don’t like any verification checks on their mailboxes.
+     </p>
+
+    </div>
+     <br>
+     <br>
+     
+
+     <div id="para2">
+     <h2>How do we verify an email ?</h2>
+     <ul>
+       <li>First it checks for email address format.</li>
+       <li>Then make sure that domain name is valid. We also check whether it’s a disposable email address or not.</li>
+       <li>In the final step, It extracts the MX records from the domain records and connects to the email server
+         (over SMTP and also simulates sending a message) to make sure the mailbox really exists for that user/address.
+         Some mail servers do not cooperate in the process, in such cases, the result of this email verification tool
+         may not be as accurate as expected.
+       </li>
+     </ul>
+    </div>
+</div>
+<div id="Extractor">
+ <h1>Email Extractor</h1>
+     <p>If you need to extract emails from text files / documents, use our <a href="https://email-checker.net/email-extractor">online email extractor </a> to accomplish that. It’s free to use and does its job very fast, without any sign up or captcha.</p>
+</div>
+
+     <br><br>
+     <div class="rowmt50">
+        <div class="col-12col-sm-12col-md-6col-lg-6">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <h2 class="heading24">Disposable address</h2>
+                    <p class="lnht24">A disposable email address (DEA) is a short-lived email address that is used to receive one or two emails in a short duration. After that, the email address is never used again. Emails reaching the DEA mostly auto-delete after a short time. somename[at]mailinator[dot]com is an example of DEA.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="disp_add"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rowmt50">
+        <div class="col-12col-sm-12col-md-6col-lg-6">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <h3 class="heading24">Accept-all address</h3>
+                    <p class="lnht24">Some organizations configure their email servers to accept all emails addressed to their domain even if the mailbox doesn&#8217;t exist. Therefore, such mailboxes could be full of spam mails. The result is extremely poor engagement. Expert marketers advise caution when sending mails to such addresses.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="accept_all_add"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="rowmt50">
+        <div class="col-12col-sm-12col-md-6col-lg-6">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <h3 class="heading24">Role address</h3>
+                    <p class="lnht24">A role address is associated with a post or a role in the organization, rather than with an individual. Emails received by a role address are mostly shared among a group of people. Therefore, emails reaching this address have a high risk of being labelled spam by someone in the group. Example: sales[at]company[dot]com</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="role_add"></div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="rowmt50">
+        <div class="col-12col-sm-12col-md-6col-lg-6">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <h3 class="heading24">Fake address</h3>
+                    <p class="lnht24">A fake or invalid email address is one that is incorrect and hence undeliverable. Such addresses enter your mailing list when someone types in an incorrect address either knowingly or due to a typo. Or the old address is no longer active and has expired. Emails sent to such addresses always result in hard bounce, hurting your sender reputation.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="fake_add"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <p>
+<div id="feedback">
+     <h1 style="text-decoration: solid;" >FEEDBACK</h1>
+   <strong>Help us improve this site</strong> <br>
+   If you have any suggestion/idea for improving this website or adding new feature or something, feel free to email us.
+   </p>
+</div>
+
+    <footer>
+     Copyright | iVAlidate.com | All Rights Reserved
+    </footer>
+    <script src="js/index.js"></script>
+    
+    </div>    
+</body>
+</html>
